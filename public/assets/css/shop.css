@@ -1,0 +1,46 @@
+.nav-link {
+    color: #444444 ;
+    text-align: start;
+    padding-left: 0px !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(126 19 174) !important;
+}
+
+.indexnavlinks{
+  padding-left: 18px !important;
+  padding-top:  5px !important;
+  padding-bottom:  5px !important;
+  padding-right: 18px !important;
+  border: 1px solid transparent !important;
+}
+.nav-pills1 .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #7E13AE !important;
+    background: transparent !important;
+    font-weight: 600;
+}
+
+
+.img_producto_container {
+    width: 100%;
+    min-height: 36rem;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  .img_producto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s ease-out;
+  }
+  .detailsSection{
+    min-height: calc(100vh - 420px);
+  }

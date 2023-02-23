@@ -1,0 +1,38 @@
+.leftOWlTcon{
+    width: 32px;
+        height: 32px;
+        background: transparent;
+        position: absolute;
+        top: 45%;
+        z-index: +1111;
+        left: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        border-radius: 100%;
+        cursor: pointer;
+        color: #fff;
+}
+.rightOWlTcon{
+    width: 32px;
+        height: 32px;
+        background: transparent;
+        position: absolute;
+        top: 45%;
+        z-index: +1111;
+        right: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        cursor: pointer;
+        border-radius: 100%;
+        color: #fff;
+}
+.bbb_main_container{
+    position: relative;
+}
+.f-15{
+    font-size: 15px !important;
+}

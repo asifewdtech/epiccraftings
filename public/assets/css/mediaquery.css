@@ -1,0 +1,253 @@
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .bannerHeadings {
+        font-size: 40px;
+    }
+    .f-35 {
+        font-size: 20px;
+    }
+    .mainbannerBlock {
+        padding: 1.5rem !important;
+    }
+    .buutonFontSize {
+        font-size: 14px !important;
+        padding: .4rem 1rem !important;
+    }
+    .bannar-image1,
+    .bannar-image2 {
+        height: 650px;
+    }
+    .indexBottomTitle {
+        font-size: 29px;
+    }
+    .indexBottomdes {
+        font-size: 19px;
+    }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .bannerHeadings {
+        font-size: 22px;
+    }
+    .f-35 {
+        font-size: 18px;
+    }
+    .mainbannerBlock {
+        padding: 2rem !important;
+    }
+    .buutonFontSize {
+        font-size: 12px !important;
+        padding: .4rem 1rem !important;
+    }
+    .bannar-image1,
+    .bannar-image2 {
+        height: 650px;
+    }
+    .indexBottomTitle {
+        font-size: 29px;
+    }
+    .indexBottomdes {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+  .videoMainDiv{
+    height: 341px !important;
+        position: relative;
+  }
+  .videoOverlayOne{
+    top: 15 !important;
+  }
+    .bannar-image1{
+        height: 399px !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: inherit !important;
+        background-position: center;
+    }
+    .marginBanner {
+        margin-top: 2rem !important;
+    }
+    .main-padding {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .mw-Sm-100 {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+    .collapse:not(.show) {
+        display: block !important;
+    }
+    .navbar-collapse {
+        flex-basis: 0 !important;
+        flex-grow: 0 !important;
+        align-items: center;
+    }
+    .menuConetntMain {
+        position: absolute;
+        top: 65px;
+        width: 93%;
+        transition: 1s;
+        left: 12px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url("../img/left-direction.png");
+        width: 20px;
+        height: 20px;
+        filter: contrast(0.6);
+    }
+    .carousel-control-next-icon {
+        background-image: url("../img/right-direction.png");
+        width: 20px;
+        height: 20px;
+        filter: contrast(0.6);
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: -10px;
+    }
+    .carousel-control-next {
+        justify-content: flex-end;
+        right: -10px;
+    }
+    #menuIcon {
+        font-size: 20px !important;
+    }
+    .SmDisplayBlock {
+        display: block !important;
+    }
+    .SmDisplayNone {
+        display: none !important;
+    }
+    .carousel-caption {
+        top: 8% !important;
+    }
+
+    .mainbannerBlock {
+        font-size: 16px;
+    }
+    .bannar-image1,
+    .bannar-image2 {
+        height: 350px;
+    }
+    .buutonFontSize {
+        white-space: nowrap;
+        font-size: 12px !important;
+    }
+    .indexMainButtonDiv {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+    .mainbannerBlock {
+        padding: 0.3rem !important;
+    }
+    .midTitle {
+        font-size: 1.3rem !important;
+    }
+    .h-10rem {
+        height: 6rem;
+    }
+    .w-Sm-100 {
+        width: 100% !important;
+    }
+    .designYourOwn {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+    }
+    .bannerTwo {
+        height: 170px;
+    }
+    .midMainTitle {
+        font-size: 16px !important;
+    }
+    .textMobileCenter {
+        text-align: center !important;
+    }
+    .flexWrapWrap{
+        flex-wrap: wrap;
+    }
+    .logoTopPadding{
+        padding-top: 22px;
+    }
+    .imagesAbout {
+        width: 42px;
+    }
+    .brandLogo {
+        width: 132px;
+    }
+    .marginMobileAuto {
+        margin: auto !important;
+    }
+    .w-220px {
+        width: 220px;
+    }
+    .flexCenter {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+    .alignStart {
+        align-items: start !important;
+    }
+    .w-131 {
+        width: 131px;
+    }
+    .pl-Sm-15 {
+        padding-left: 8px;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .orderHeading {
+        font-size: 16px !important;
+    }
+    .smBorderZero {
+        border: 0px !important;
+    }
+    .pl-35 {
+        padding-left: 35px !important;
+    }
+    .pt-3px {
+        padding-top: 3px;
+    }
+    .pSmZero {
+        padding: 0px !important;
+    }
+    .textStart {
+        text-align: start !important;
+    }
+    .tdunderline {
+        padding-left: 20px !important;
+    }
+    .mt-22 {
+        margin-top: 22px;
+    }
+    .circleImg {
+        width: 79px;
+    }
+    .mwTwo {
+        max-width: 22%;
+        padding: 0px;
+    }
+    .mwNine {
+        max-width: 82%;
+    }
+    .flexRenerse {
+        flex-direction: row-reverse;
+    }
+    .navbar-brand{
+        text-align: center !important;
+        margin-right: 0px !important;
+    }
+    .headerDropdown {
+        width: 94vw !important;
+    }
+}
+@media only screen and (max-width: 1224px) {
+    .main-padding {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}

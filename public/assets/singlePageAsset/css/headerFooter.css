@@ -1,0 +1,132 @@
+.main-padding-nav{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.purple:hover{
+    color: #7E13AE !important;
+    font-weight: 600;
+}
+.navActive{
+    font-weight: 600;
+    color: #7E13AE !important;
+}
+.fw-600{
+font-weight: 600 !important;
+}
+.f-22-nav{
+    font-size: 22px;
+}
+
+.cart_number{
+    border-radius: 25px;
+    font-size: 10px;
+    background-color: #7E13AE;
+    color: #fff;
+    padding: 3px 8px;
+    position: absolute;
+    top: -15px;
+    right: -9px;
+}
+
+.bg-7E13AE{
+    background-color: #7E13AE;
+}
+
+.f-18-footer{
+    font-size: 18px;
+}
+.headerDropdown {
+    width: 630px;
+    right: -26px !important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: initial !important;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+
+.fa-trash-o {
+    font-size: 25px !important;
+}
+
+.quantity {
+    width: 70px;
+    height: 30px;
+    padding: 0px 10px;
+}
+/* Navbar code */
+.menuConetntMain {
+    position: absolute;
+    top: 65px;
+    width: 93%;
+    transition: 1s;
+    left: 12px;
+}
+.cl-828282{
+    color: #828282 !important;
+}
+.cl-7E13AE{
+    color: #7E13AE;
+}
+.cl-44444{
+    color: #444444 !important;
+}
+
+.headerDropdown::after {
+    content: '';
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: #fff;
+    top: -12px;
+    left: 90%;
+    border-top: #0000001a solid 2px;
+    border-left: #0000001a solid 2px;
+    transform: rotate(45deg);
+}
+footer div{
+    font-size: 15px !important;
+}
+
+@media only screen and (max-width: 786px){
+.mw-Sm-100 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+}
+.SmDisplayNone {
+    display: none !important;
+}
+.collapse:not(.show) {
+    display: block !important;
+}
+.navbar-collapse {
+    flex-basis: 0 !important;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+.textMobileCenter {
+    text-align: center !important;
+}
+.marginMobileAuto {
+    margin: auto !important;
+}
+.main-padding-nav{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+}
+/* Navbar code */
